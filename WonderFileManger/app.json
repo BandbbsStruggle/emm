@@ -1,0 +1,60 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 20499,
+    "appName": "w",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "empty app"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "480x480-gtr-3-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index",
+            "page/HomePage/index",
+            "page/HomePage/index1",
+            "page/HomePage/index2",
+            "page/HomePage/index3",
+            "page/HomePage/index4"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "gtr3-pro",
+          "deviceSource": 229
+        },
+        {
+          "name": "gtr3-pro-w",
+          "deviceSource": 230
+        },
+        {
+          "name": "gtr3-pro-meilin",
+          "deviceSource": 6095106
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Empty"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
